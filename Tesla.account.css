@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.user, .globe img {
+    filter: invert(100%);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.navbar img {
+    width: 10rem;
+}
+
+.globe {
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.language-selector {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    gap: 1px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.language-selector:hover {
+    background-color: rgba(211, 217, 213, 0.210);
+    padding: 1px 2px;
+}
+
+.language-selector img {
+    width: 20px;
+    margin-bottom: -4px;
+    margin-right: 3px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    top: -5rem;
+}
+
+label {
+    display: block;
+    position: relative;
+    top: -4rem;
+    text-align: left;
+}
+
+input[type="email"]  {
+    width: 90%;
+    padding: 12px;
+    position: relative;
+    top: -3rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e5e5e5;
+}
+
+.btn-next {
+    width: 100%;
+    padding: 12px;
+    background-color: #87cefa;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    top: -1rem;
+}
+
+.btn-next:hover {
+    background-color: #00bfff;
+}
+.link {
+    margin-top: 20px;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    top: -1rem;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.link:hover {
+    color: #000;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    position: relative;
+    top: 1rem;
+
+}
+
+.divider hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.divider span {
+    margin: 0 10px;
+    color: #555;
+}
+
+.btn-create-account {
+    width: 100%;
+    padding: 12px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 4px;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    top: 4rem;
+}
+
+.btn-create-account:hover {
+    background-color: #d2d4d5;
+}
+
+
+.box {
+    width: 100%;
+    height: 2rem;
+    margin-top: 7rem;
+}
+
+.navbar-- {
+    display: flex;
+    margin-left: -1rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.list-- {
+    color: gray;
+    font-size: 13px;
+    font-weight: 700;
+    display: inline-flex;
+    gap: 40px;
+}

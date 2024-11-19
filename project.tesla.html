@@ -1,0 +1,347 @@
+ <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .user, .globe img {
+            filter: invert(100%);
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background-color: #fff;
+        }
+
+        .navbar img {
+            width: 10rem;
+        }
+
+        .globe {
+            color: black;
+        }
+
+        .language-selector {
+            display: flex;
+            align-items: center;
+            padding: 5px;
+            border-radius: 5px;
+            gap: 1px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .language-selector:hover {
+            background-color: rgba(211, 211, 211, 0.137);
+            padding: 7px 5px;
+        }
+
+        .language-selector img {
+            width: 20px;
+            margin-bottom: -4px;
+            margin-right: 3px;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: left;
+        }
+
+        h2 {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .email-display {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .email-display span {
+            color: #0073e6;
+            cursor: pointer;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            background-color: #e5e5e5;
+        }
+
+        .forgot-password {
+            display: block;
+            font-size: 14px;
+            color: #0073e6;
+            cursor: pointer;
+            text-align: right;
+            margin-bottom: 20px;
+        }
+
+        .btn-next {
+            width: 100%;
+            padding: 12px;
+            background-color: #87cefa;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .btn-next:hover {
+            background-color: #00bfff;
+        }
+
+        .divider {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        .divider hr {
+            flex-grow: 1;
+            border: none;
+            border-top: 1px solid #ccc;
+        }
+
+        .divider span {
+            margin: 0 10px;
+            color: #555;
+        }
+
+        .btn-create-account {
+            width: 100%;
+            padding: 12px;
+            background-color: #e5e5e5;
+            border: none;
+            border-radius: 4px;
+            color: #000;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .btn-create-account:hover {
+            background-color: #d3d3d3;
+        }
+
+        .box {
+            width: 100%;
+            height: 5rem;
+            margin-top: 13rem;
+        }
+
+        .navbar-- {
+            display: flex;
+            margin-left: 0rem;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .list-- {
+            color: grey;
+            font-size: 13px;
+            font-weight: 700;
+            display: inline-flex;
+            gap: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="./Tesla.html"><img class="user" src="./asset/tes-rem.png" alt=""></a>
+        <div class="language-selector">
+            <a class="globe" href="./Tesla.html"><img width="40rem" src="./asset/globe.png" alt="">
+                <span>en-CA</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Sign In</h2>
+
+        <div class="email-display">
+         user@example.com <span>Change</span>
+        </div>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" required>
+
+        <a class="forgot-password" href="#">Forgot password?</a>
+
+        <button class="btn-next">Sign In</button>
+
+        <div class="divider">
+            <hr>
+            <span>or</span>
+            <hr>
+        </div>
+        
+        <a href="./Tesla.html"><button class="btn-create-account">Create Account</button></a>
+    </div>
+
+    <div class="box">
+        <nav class="navbar--"> 
+            <ul class="list--" style="list-style-type: none;">  
+                <li>Tesla © 2024</li>
+                <li>Privacy & Legal</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Menu Bar</title>
+<style>
+  /* Reset some default browser styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Navbar styling */
+  .navbar {
+    position: fixed; /* Makes the navbar fixed on scroll */
+    top: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+
+  /* Tesla logo styling */
+  .tes svg {
+    width: 7rem;
+  }
+
+  /* Center menu list styling */
+  .bars {
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
+  }
+
+  .bars li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  /* Right-aligned icons styling */
+  .lo {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .lo a img {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Responsive layout for smaller screens */
+  @media (max-width: 768px) {
+    .bars {
+      gap: 1rem;
+    }
+    .lo {
+      gap: 1rem;
+    }
+    .tes svg {
+      width: 5rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <!-- Tesla logo on the left -->
+  <div class="tes">
+    <svg style="width: 7rem;" viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg">
+      <path fill="currentColor" d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7m0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7M308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7"></path>
+    </svg>
+  </div>
+
+  <!-- Centered menu links -->
+  <ul class="bars">
+    <li><a class="a1" href="./Tesla.html">Vehicles</a></li>
+    <li><a class="a2" href="./Tesla.html">Energy</a></li>
+    <li><a class="a3" href="./Tesla.html">Charging</a></li>
+    <li><a class="a4" href="./Tesla.html">Discover</a></li>
+    <li><a class="a5" href="./Tesla.html">Cover</a></li>
+    <li><a class="a6" href="./Tesla.html">Shop</a></li>
+  </ul>
+
+  <!-- Right-aligned user icons -->
+  <ul class="lo">
+    <a href="./Tesla.html"><img src="./asset/question.png" alt="Help"></a>
+    <a href="./Tesla.html"><img src="./asset/globe.png" alt="Language"></a>
+    <a href="./Tesla.account.html"><img src="./asset/user.png" alt="Account"></a>
+  </ul>
+</nav>
+
+<!-- Example page content to demonstrate scroll behavior -->
+<div style="margin-top: 4rem; padding: 2rem;">
+  <p>Scroll down to see the navbar stay at the top of the page.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque...</p>
+  <!-- Add more content here to allow scrolling -->
+</div>
+
+</body>
+</html>

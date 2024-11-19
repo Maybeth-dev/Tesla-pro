@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .navbar {
+    width: 100%;
+    max-width: 1350px; 
+    margin: 0 auto;  
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    position: relative;
+    top: -25vh;
+  }
+  .tes {
+    width: 7rem;
+    position: relative;
+    left: 3vh;
+  }
+  .bars {
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+  }
+
+  .bars li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .lo {
+    display: flex;
+    gap: 1rem;
+  }
+  .lo svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: black;
+    position: relative;
+    right: 30px;
+  }
+.modelY{
+        background-size: cover;
+        height: 35rem;
+        width: 100%;
+    background-image: url("./asset/Homepage-Model-Y-Desktop-US-v2.avif");
+    text-align: center;
+    padding-top: 10rem;
+    color: black;
+}
+.modelY h1{
+    font-size: 40px;
+    color: black;
+    position: relative;
+    top: -7vh;
+}
+.big-txt{
+    position: relative;
+    top: -8vh;
+    font-size: 30px;
+    text-underline-offset: 7px;
+    text-decoration: underline;
+}
+.small-txt{
+    position: relative;
+    top: -7vh;
+    font-size: 20px;
+}
+.bt{
+    padding: 11px 6rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    top: 30vh;
+}
+.order{
+    background-color: white; 
+    color: black ;
+}
+.demo{
+    margin-left: 1rem;
+    background-color: black;
+    color:  white;
+}
+.model3{
+    text-align: center;
+    padding-top: 10rem;
+    color: black;
+     background-image: url("./asset/Homepage-Model-3-Desktop-US.avif");
+    background-size: cover;
+    height: 35rem;
+}
+
+ 
+.model3 h1{
+    font-size: 40px;
+    color: black;
+    position: relative;
+    top: -7vh;
+}
+.big-text{
+    position: relative;
+    top: -3vh;
+    font-size: 30px;
+    text-underline-offset: 7px;
+    text-decoration: underline;
+}
+.small-text{
+    position: relative;
+    top: 2vh;
+    font-size: 20px;
+}
+.bt{
+    padding: 11px 6rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    top: 20rem;
+}
+.order{
+    background-color:white; 
+    color:  black;
+}
+.demo{
+    margin-left: 1rem;
+    background-color:  black;
+    color:  white;
+}
+.btn-group{
+    text-align: center;
+    margin-top: 20rem;
+}
+.modelX{
+    text-align: center;
+    padding-top: 10rem;
+    color: black;
+     background-image: url("./asset/Homepage-Model-X-Desktop-v2.avif");
+    background-size: cover;
+    height: 35rem;
+    width: 100%;
+}
+.modelX h1{
+    font-size: 40px;
+    color: black;
+    position: relative;
+    top: -7vh;
+}
+.big-text{
+    position: relative;
+    top: -8vh;
+    font-size: 30px;
+    text-underline-offset: 7px;
+    text-decoration: underline;
+}
+.small-text{
+    position: relative;
+    top: -7vh;
+    font-size: 20px;
+}
+.btn{
+    padding: 11px 6rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.order{
+     background-color:  white; 
+    color:  black ;
+}
+.demo{
+    margin-left: 1rem;
+    background-color:  black;
+    color:  white;
+}
+.btn-group{
+    text-align: center;
+     position: relative;
+     bottom: -6vh;
+}
+.modelS{
+    text-align: center;
+    padding-top: 10rem;
+    color: white;
+     background-image: url("./asset/Homepage-Model-S-Desktop-v2.avif");
+    background-size: cover;
+    height: 35rem;
+}
+.modelS h1{
+    font-size: 40px;
+    color: black;
+    position: relative;
+    top: -7vh;
+}
+.big-text{
+    position: relative;
+    top: -8vh;
+    font-size: 30px;
+    color: black;
+    text-underline-offset: 7px;
+    text-decoration: underline;
+}
+.small-text{
+    position: relative;
+    color: black;
+    top: -7vh;
+    font-size: 20px;
+}
+.btn{
+    padding: 11px 6rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.order{
+     background-color:  white; 
+    color:  black ;
+}
+.demo{
+    margin-left: 1rem;
+    background-color:  black;
+    color:  white;
+}
+.btn-group{
+    text-align: center;
+    position: relative;
+    bottom: -7vh;
+}
+
+.cybertruck{
+    text-align: center;
+    padding-top: 10rem;
+    color: black;
+     background-image: url("./asset/Homepage-Cybertruck-Desktop-v3.avif");
+    background-size: cover;
+    height: 39rem;
+}
+.c2{
+  width: 20rem;
+  position: relative;
+  top: -5rem;
+}
+ 
+.cyber{
+    
+    border: none; 
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    bottom: -10vh;
+}
+.now{
+    background-color: black; 
+    color: white;
+    padding: 1rem 5rem;
+    border-bottom: 1px;
+    border-left: none;
+    margin-top: 20rem;
+}
+.more{
+    margin-left: 1rem;
+    background-color:  black;
+    color:  white;
+    padding: 1rem 5rem;
+    border: none;
+}
+.powerwall{
+    margin-top: -35px;
+    text-align: center;
+    padding-top: 10rem;
+    color: white;
+     background-image: url("./asset/Homepage-Powerwall-3-Desktop-ROW.avif");
+    background-size: cover;
+    height:35rem;
+    /* margin-top: 2rem; */
+}
+.powerwall h1{
+    font-size: 40px;
+}
+.wall{
+    padding: 11px 6rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.request{
+    padding: 11px 5rem;
+     background-color:  white; 
+    color:  black ;
+    border-radius: 4px;
+    border: none;
+    margin-left: 2rem;
+    margin-top: 20rem;
+    font-weight: 600;
+}
+.learn{
+    padding: 11px 5rem;
+    margin-left: 1rem;
+    background-color:  black;
+    color:  white;
+    border-radius: 4px;
+    border: none;
+    font-weight: 600;
+}
+.btn-wall{
+    text-align: center;
+    margin-top: 20rem;
+    
+}
+.accessories{
+    text-align: center;
+    padding-top: 10rem;
+    color: black;
+     background-image: url("./asset/Homepage-Accessories-Desktop-NA-APAC.avif");
+    background-size: cover;
+    height:35rem;
+}
+.accessories h1{
+    font-size: 40px;
+    margin-top: 1rem;
+}
+.btn-access{
+    padding: 11px 6rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    bottom: -6vh;
+}
+.btn-shop{
+     background-color:  white; 
+    color:  black ;
+    padding: 11px 6rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    bottom: -20rem; 
+}
+.box{
+    width: 100%;
+    background-color: black;
+    height: 5rem;
+    margin-top: -1.5rem;
+}
+.navbar--{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.list--{
+    color: white;
+    font-size: 13px;
+    display: inline-flex;
+    gap: 30px;
+    margin-top: 1rem;
+} 
